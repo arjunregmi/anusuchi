@@ -1,0 +1,63 @@
+
+.abox{
+	width: 1000px;
+	height:50px;
+}
+.bbox{
+	border: 2px solid;
+	height: auto;
+	border-right-width: 1px;
+}
+
+.cbox{
+	border: 2px solid;
+	height: auto;
+	border-right-width: 1px;
+}
+
+.dbox{
+	border: 2px solid;
+	height: auto;
+}
+
+.ebox{
+	border: 2px solid;
+	height: auto;
+}
+
+
+.fbox{
+	border: 2px solid;
+	height:auto;
+	}
+
+
+.gbox{
+	border: 2px solid;
+	height:auto;
+	}
+
+
+@media screen and (min-width: 100px) {
+  .logo {
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width:auto;
+  }
+}
+
+.col-border:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	border-left: 10x solid black;
+}
+
+.nepali {
+  font-family: "Lohit Devanagari";
+}
+
+
